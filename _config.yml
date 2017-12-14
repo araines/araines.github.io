@@ -1,0 +1,17 @@
+timezone: Europe/London
+
+title: Andy Raines
+email: andrew.raines@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a backend developer working primarily in PHP, based in London UK.  I'm
+  always looking for how to improve myself, my software and for the latest cool
+  technologies.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://araines.net" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: andyraines
+github_username:  araines
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
