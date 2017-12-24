@@ -1,15 +1,15 @@
 ---
-layout: post
-title:  "Getting started with PHP serverless"
-date:   2017-04-17 18:14:04 +0000
+title: "Getting started with PHP serverless"
+date:  2017-04-17 18:14:04 +0000
+header:
+  teaser: /assets/images/2017-04-17-php-serverless.png
+  image: /assets/images/2017-04-17-php-serverless.png
 ---
 *This is a cross-post from the A Cloud Guru blog, original article found here:
 [https://read.acloud.guru/serverless-php-630bb3e950f5](https://read.acloud.guru/serverless-php-630bb3e950f5)*
 
 **How to use the Serverless Framework to get PHP working in AWS Lambda with an
 experience that closely mimics native languages**
-
-![](https://cdn-images-1.medium.com/max/2000/1*JP3fqdaBM-1suG6oyPgjdw.png)
 
 As a full-time PHP developer that’s been following the serverless movement for
 quite some time, I’ve been stuck without an outlet to take advantage of

@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "Everything Serverless Podcast"
-date:   2017-12-21 16:27:00 +0000
+title: "Everything Serverless Podcast"
+date:  2017-12-21 16:27:00 +0000
+header:
+  teaser: /assets/images/2017-12-21-3devsandamaybe.png
+  image: /assets/images/2017-12-21-3devsandamaybe.png
 ---
-
-![Three Devs and a Maybe][cover]
 
 I had a great chat with [Edd Mann][eddmann] on the [Three Devs and a Maybe
 podcast][podcast] about Serverless, AWS and about how constraints in software
@@ -17,4 +17,3 @@ You can find it on [their website][episode] or on [iTunes][itunes].
 [podcast]: http://threedevsandamaybe.com/
 [episode]: http://threedevsandamaybe.com/everything-serverless-with-andy-raines/
 [itunes]: https://itunes.apple.com/gb/podcast/three-devs-maybe-introduction/id729464185
-[cover]: {{ "/assets/3devsandamaybe.png" | absolute_url }}
