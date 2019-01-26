@@ -1,3 +1,7 @@
+{% comment %}
+Based on the archive-single.html from mmistakes
+{% endcomment %}
+
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -14,12 +18,12 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    <p class="page__meta"><i class="fa fa-calendar"></i>
+    <p class="page__meta"><i class="far fa-calendar"></i>
       {{ post.date | date: "%b %d, %Y" }}
     </p>
     <div class="archive__item-teaser">
@@ -27,12 +31,12 @@
         {% if teaser contains "://" %}
           "{{ teaser }}"
         {% else %}
-          "{{ teaser | absolute_url }}"
+          "{{ teaser | relative_url }}"
         {% endif %}
         alt="">
     </div>
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i>
         {% include read-time.html %}
       </p>
     {% endif %}
