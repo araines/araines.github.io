@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://araines.net" # the base hostname & protocol for your site, e.g. http://example.com
 repository: araines/araines.github.io
 twitter_username: andyraines
-github_username:  araines
+github_username: araines
 
 # Theme configuration
 twitter:
@@ -21,7 +21,7 @@ author:
   name: Andy Raines
   avatar: "/assets/images/araines.jpg"
   bio: >-
-    I am a backend developer working primarily in PHP, based in London UK.  I've
+    I am a polyglot developer working primarily in JS, based in London UK.  I've
     a keen interest in furthering my own learning and abilities and I'm always
     looking for how to improve myself, my software and for the latest cool
     technologies.
@@ -40,6 +40,7 @@ minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Front matter defaults
 defaults:
