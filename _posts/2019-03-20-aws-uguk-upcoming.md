@@ -1,0 +1,16 @@
+---
+title: "Upcoming Meetup: Using AWS Fargate to improve lead times and quality"
+date: 2019-03-20 08:55:00 +0000
+---
+
+Next week I'll be copresenting a talk at the [AWS User Group UK Meetup][awsuguk]
+with my collegue [Kouros Aliabadi][kouros].  We're going to be talking about our
+use of [AWS Fargate][fargate] to help power [The Times website][thetimes].
+
+If you're in the area, I'd recommend coming along - this meetup is generally
+well attended and gets some great talks.  See you there!
+
+[awsuguk]: https://www.meetup.com/AWSUGUK/
+[kouros]: https://www.linkedin.com/in/kouros-aliabadi-93864465/
+[fargate]: https://aws.amazon.com/fargate/
+[thetimes]: https://www.thetimes.co.uk/
